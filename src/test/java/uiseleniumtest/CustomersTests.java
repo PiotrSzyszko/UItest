@@ -21,7 +21,7 @@ public class CustomersTests {
 
     @BeforeClass
     public void setUp(){
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\lenovo\\Documents\\Udemy\\Selenium\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.gecko.driver", "https://github.com/PiotrSzyszko/UItest/blob/master/src/resources/chromedriver.exe");
         Dimension d = new Dimension(1280,860);
         driver = new ChromeDriver();
         driver.manage().window().maximize();
